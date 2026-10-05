@@ -1,10 +1,10 @@
-# ⚡ Data Structures & Algorithms Practice
+#  Data Structures & Algorithms Practice
 
 A centralized workspace for keeping track of my daily algorithmic practice, interview preparation, and contest solutions in **Java**.
 
 ---
 
-## 🎯 Purpose & Goals
+##  Purpose & Goals
 
 * Maintain clean, readable, and well-commented implementations for core DSA problems.
 * Develop consistent pattern recognition across different problem categories.
@@ -12,7 +12,7 @@ A centralized workspace for keeping track of my daily algorithmic practice, inte
 
 ---
 
-## 📂 Repository Organization
+##  Repository Organization
 
 Code is organized into subdirectories by topic or platform. As I solve problems, files are named using the following convention:
 `[ProblemNumber]_[ProblemName].java` *(e.g., `0001_Two_Sum.java` or `TwoSum.java`)*
