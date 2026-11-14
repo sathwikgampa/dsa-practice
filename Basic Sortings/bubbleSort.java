@@ -1,14 +1,18 @@
 
 public class bubbleSort{
     public static  void  Sort1(int arr[]){
+        
         for(int turn=0;turn<arr.length-1;turn++){
+            // for the best case of bubble sort we can intialise an swap = 0 here 
             for(int j=0;j<arr.length-1-turn;j++){
                 if(arr[j+1]<arr[j]){
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
+                    // swap++ , increments here 
                 }
             }
+            // if again still here swap is equal to 0 , then the given arr is already sorted one best case so it will result in O(n)
         }
     }
     public static void PrintArray(int arr[]){
