@@ -7,10 +7,10 @@ public class SelectionSort {
                 if(arr[minPos] > arr[j]){
                     minPos = j;
                 }
+            }
                 int temp = arr[minPos];
                 arr[minPos] = arr[i];
                 arr[i] = temp;
-            }
         }
     }
 
